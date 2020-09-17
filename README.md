@@ -1,14 +1,11 @@
-# python enimga
+# python vigenere cipher
 
-This project was designed for one task only, and that task is to create an encrypted message
+its as simple as 1, 2, 3.
 
-Here is the end goal:
-1) You have an ID, and whoever you are sending the message to knows your ID. Your ID can be anything, it could be your name, or even hvduijsbfmuido3284109.. This means that the reciprocant can choose to only read messages send from your ID, or they can choose not to reply to them.
-   
-2) And every time you send a message, no matter what you do, the enigma will always send a different encrypted message. This is because it generates a new plug combination every time you want to send a message.
-   
-3) When sending a message, the script will generate a "token" which you can then use to decode the message. Because the plugs are generated at random, we need a way to get back those plug combos. This is where a seed comes into place, a seed where you can trace back when it was made. 
+1) Run the file and think of something to encrypt. Like "hello world"
 
-4) Once you have that seed, lets say plugs 'CX LE HZ SG MT QF OL EK HJ MC' equal '9124879709799869538'. I can use said generated seed, to trace back what the plugs were. But for the sake of everything secret, I would have to make a weird algorithm to keep it seemingly random.
+2) Think of a key to encrypt the file in. Remember this for later when you want to decrypt the file too, because you'll need it.
 
-5) ??? I have not gotten this far yet.
+3) Use that key and put "0" for encrypt, or "1" for decrypt. So if i wanted to re-read "hello world" after i encrypted it, i would need my special key i put in at the beginning.
+
+PLEASE credit me for my work if you use this.
